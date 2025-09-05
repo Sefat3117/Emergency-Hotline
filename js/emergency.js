@@ -67,3 +67,15 @@ for (const button of callButtons) {
     });
   });
 }
+
+// Copy Button Functionality
+const copyBtns = document.getElementsByClassName('copy-btn');
+
+for (const btn of copyBtns) {
+  btn.addEventListener('click', function () {
+    const number = btn.parentNode.parentNode.childNodes[7].innerText;
+
+    navigator.clipboard.writeText(number);
+    alert(`নম্বর কপি হয়েছে : ${number}`);
+  });
+}
