@@ -25,7 +25,9 @@
             Emergency<br />Service
           </h3>
         </div>
-        <div class="flex justify-between items-center gap-10">
+        <div
+          class="flex flex-col md:flex-row justify-between items-center gap-2 md:gap-7"
+        >
           <div
             class="flex justify-between items-center gap-2 bg-gray-100 rounded-[50px] p-3"
           >
@@ -35,14 +37,18 @@
           <div
             class="flex justify-between items-center gap-2 bg-gray-100 rounded-[50px] p-3"
           >
-            <span class="font-bold">100</span>
+            <span id="coinValue" class="font-bold">100</span>
             <img class="w-7" src="assets/coin.png" alt="" />
           </div>
           <div
             class="flex justify-between items-center gap-2 bg-[#00A63E] rounded-[50px] p-3 text-white font-medium"
           >
-            <span>0</span>
-            <p class="">Copy</p>
+            <span
+              id="copyCountBtn"
+              class="text-white font-semibold font-inter text-[16px]"
+              >0</span
+            >
+            <p class="text-white font-semibold font-inter text-[16px]">Copy</p>
           </div>
         </div>
       </nav>
@@ -87,12 +93,12 @@
             </p>
             <div class="flex gap-3 mt-5">
               <button
-                class="w-1/2 h-[40px] rounded-[8px] text-[#5C5C5C] font-roboto text-[16px] border border-[#D4D6D5] bg-white"
+                class="w-1/2 h-[40px] rounded-[8px] text-[#5C5C5C] font-roboto text-[16px] border border-[#D4D6D5] bg-white copy-btn"
               >
                 <i class="fa-regular fa-copy"></i> Copy
               </button>
               <button
-                class="w-1/2 h-[40px] rounded-[8px] font-roboto text-[16px] border border-[#D4D6D5] bg-[#00A63E] text-white"
+                class="w-1/2 h-[40px] rounded-[8px] font-roboto text-[16px] border border-[#D4D6D5] bg-[#00A63E] text-white call-btn"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -117,12 +123,12 @@
             </p>
             <div class="flex gap-3 mt-5">
               <button
-                class="w-1/2 h-[40px] rounded-[8px] text-[#5C5C5C] font-roboto text-[16px] border border-[#D4D6D5] bg-white"
+                class="w-1/2 h-[40px] rounded-[8px] text-[#5C5C5C] font-roboto text-[16px] border border-[#D4D6D5] bg-white copy-btn"
               >
                 <i class="fa-regular fa-copy"></i> Copy
               </button>
               <button
-                class="w-1/2 h-[40px] rounded-[8px] font-roboto text-[16px] border border-[#D4D6D5] bg-[#00A63E] text-white"
+                class="w-1/2 h-[40px] rounded-[8px] font-roboto text-[16px] border border-[#D4D6D5] bg-[#00A63E] text-white call-btn"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -147,12 +153,12 @@
             </p>
             <div class="flex gap-3 mt-5">
               <button
-                class="w-1/2 h-[40px] rounded-[8px] text-[#5C5C5C] font-roboto text-[16px] border border-[#D4D6D5] bg-white"
+                class="w-1/2 h-[40px] rounded-[8px] text-[#5C5C5C] font-roboto text-[16px] border border-[#D4D6D5] bg-white copy-btn"
               >
                 <i class="fa-regular fa-copy"></i> Copy
               </button>
               <button
-                class="w-1/2 h-[40px] rounded-[8px] font-roboto text-[16px] border border-[#D4D6D5] bg-[#00A63E] text-white"
+                class="w-1/2 h-[40px] rounded-[8px] font-roboto text-[16px] border border-[#D4D6D5] bg-[#00A63E] text-white call-btn"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -177,12 +183,12 @@
             </p>
             <div class="flex gap-3 mt-5">
               <button
-                class="w-1/2 h-[40px] rounded-[8px] text-[#5C5C5C] font-roboto text-[16px] border border-[#D4D6D5] bg-white"
+                class="w-1/2 h-[40px] rounded-[8px] text-[#5C5C5C] font-roboto text-[16px] border border-[#D4D6D5] bg-white copy-btn"
               >
                 <i class="fa-regular fa-copy"></i> Copy
               </button>
               <button
-                class="w-1/2 h-[40px] rounded-[8px] font-roboto text-[16px] border border-[#D4D6D5] bg-[#00A63E] text-white"
+                class="w-1/2 h-[40px] rounded-[8px] font-roboto text-[16px] border border-[#D4D6D5] bg-[#00A63E] text-white call-btn"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -209,12 +215,12 @@
             </p>
             <div class="flex gap-3 mt-5">
               <button
-                class="w-1/2 h-[40px] rounded-[8px] text-[#5C5C5C] font-roboto text-[16px] border border-[#D4D6D5] bg-white"
+                class="w-1/2 h-[40px] rounded-[8px] text-[#5C5C5C] font-roboto text-[16px] border border-[#D4D6D5] bg-white copy-btn"
               >
                 <i class="fa-regular fa-copy"></i> Copy
               </button>
               <button
-                class="w-1/2 h-[40px] rounded-[8px] font-roboto text-[16px] border border-[#D4D6D5] bg-[#00A63E] text-white"
+                class="w-1/2 h-[40px] rounded-[8px] font-roboto text-[16px] border border-[#D4D6D5] bg-[#00A63E] text-white call-btn"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -241,12 +247,12 @@
             </p>
             <div class="flex gap-3 mt-5">
               <button
-                class="w-1/2 h-[40px] rounded-[8px] text-[#5C5C5C] font-roboto text-[16px] border border-[#D4D6D5] bg-white"
+                class="w-1/2 h-[40px] rounded-[8px] text-[#5C5C5C] font-roboto text-[16px] border border-[#D4D6D5] bg-white copy-btn"
               >
                 <i class="fa-regular fa-copy"></i> Copy
               </button>
               <button
-                class="w-1/2 h-[40px] rounded-[8px] font-roboto text-[16px] border border-[#D4D6D5] bg-[#00A63E] text-white"
+                class="w-1/2 h-[40px] rounded-[8px] font-roboto text-[16px] border border-[#D4D6D5] bg-[#00A63E] text-white call-btn"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -273,12 +279,12 @@
             </p>
             <div class="flex gap-3 mt-5">
               <button
-                class="w-1/2 h-[40px] rounded-[8px] text-[#5C5C5C] font-roboto text-[16px] border border-[#D4D6D5] bg-white"
+                class="w-1/2 h-[40px] rounded-[8px] text-[#5C5C5C] font-roboto text-[16px] border border-[#D4D6D5] bg-white copy-btn"
               >
                 <i class="fa-regular fa-copy"></i> Copy
               </button>
               <button
-                class="w-1/2 h-[40px] rounded-[8px] font-roboto text-[16px] border border-[#D4D6D5] bg-[#00A63E] text-white"
+                class="w-1/2 h-[40px] rounded-[8px] font-roboto text-[16px] border border-[#D4D6D5] bg-[#00A63E] text-white call-btn"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -303,12 +309,12 @@
             </p>
             <div class="flex gap-3 mt-5">
               <button
-                class="w-1/2 h-[40px] rounded-[8px] text-[#5C5C5C] font-roboto text-[16px] border border-[#D4D6D5] bg-white"
+                class="w-1/2 h-[40px] rounded-[8px] text-[#5C5C5C] font-roboto text-[16px] border border-[#D4D6D5] bg-white copy-btn"
               >
                 <i class="fa-regular fa-copy"></i> Copy
               </button>
               <button
-                class="w-1/2 h-[40px] rounded-[8px] font-roboto text-[16px] border border-[#D4D6D5] bg-[#00A63E] text-white"
+                class="w-1/2 h-[40px] rounded-[8px] font-roboto text-[16px] border border-[#D4D6D5] bg-[#00A63E] text-white call-btn"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
@@ -335,32 +341,34 @@
             </p>
             <div class="flex gap-3 mt-5">
               <button
-                class="w-1/2 h-[40px] rounded-[8px] text-[#5C5C5C] font-roboto text-[16px] border border-[#D4D6D5] bg-white"
+                class="w-1/2 h-[40px] rounded-[8px] text-[#5C5C5C] font-roboto text-[16px] border border-[#D4D6D5] bg-white copy-btn"
               >
                 <i class="fa-regular fa-copy"></i> Copy
               </button>
               <button
-                class="w-1/2 h-[40px] rounded-[8px] font-roboto text-[16px] border border-[#D4D6D5] bg-[#00A63E] text-white"
+                class="w-1/2 h-[40px] rounded-[8px] font-roboto text-[16px] border border-[#D4D6D5] bg-[#00A63E] text-white call-btn"
               >
                 <i class="fa-solid fa-phone"></i> Call
               </button>
             </div>
           </div>
         </div>
-        <div
-          class="call-history-container flex justify-between items-center w-full md:w-1/4"
-        >
-          <div class="flex justify-between items-center gap-2">
-            <i class="fa-solid fa-clock"></i>
-            <p class="font-roboto text-[20px]">Call History</p>
+        <div class="w-full md:w-1/4">
+          <div class="flex justify-between items-center">
+            <div class="flex justify-between items-center gap-2">
+              <i class="fa-solid fa-clock"></i>
+              <p class="font-roboto text-[20px]">Call History</p>
+            </div>
+            <div>
+              <button
+                id="clear-btn"
+                class="bg-[#00A63E] rounded-[50px] px-9 py-3 text-white font-semibold font-inter"
+              >
+                Clear
+              </button>
+            </div>
           </div>
-          <div>
-            <button
-              class="bg-[#00A63E] rounded-[50px] px-9 py-3 text-white font-semibold font-inter"
-            >
-              Clear
-            </button>
-          </div>
+          <div id="call-history-container"></div>
         </div>
       </section>
     </main>
