@@ -77,5 +77,15 @@ for (const btn of copyBtns) {
 
     navigator.clipboard.writeText(number);
     alert(`নম্বর কপি হয়েছে : ${number}`);
+
+    const copyCount = document.getElementById('copyCountBtn');
+    let convertedCopyCount = parseInt(
+      document.getElementById('copyCountBtn').innerText
+    );
+
+    convertedCopyCount = convertedCopyCount + 1;
+
+    copyCount.innerText = convertedCopyCount;
+    console.log(convertedCopyCount);
   });
 }
